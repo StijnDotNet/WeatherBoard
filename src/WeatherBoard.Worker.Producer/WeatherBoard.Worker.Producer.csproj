@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-WeatherBoard.Worker.Producer-33e104fb-6833-49a6-9828-5c33cc34400c</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherBoard.Application\WeatherBoard.Application.csproj" />
+    <ProjectReference Include="..\WeatherBoard.Domain\WeatherBoard.Domain.csproj" />
+    <ProjectReference Include="..\WeatherBoard.Infrastructure\WeatherBoard.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

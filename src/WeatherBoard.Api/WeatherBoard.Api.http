@@ -1,0 +1,6 @@
+@WeatherBoard.Api_HostAddress = http://localhost:5159
+
+GET {{WeatherBoard.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

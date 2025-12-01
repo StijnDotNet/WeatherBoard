@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/WeatherBoard.Api/WeatherBoard.Api.csproj" />
+    <Project Path="src/WeatherBoard.Application/WeatherBoard.Application.csproj" />
+    <Project Path="src/WeatherBoard.Domain/WeatherBoard.Domain.csproj" />
+    <Project Path="src/WeatherBoard.Gateway/WeatherBoard.Gateway.csproj" />
+    <Project Path="src/WeatherBoard.Infrastructure/WeatherBoard.Infrastructure.csproj" />
+    <Project Path="src/WeatherBoard.Web/WeatherBoard.Web.csproj" />
+    <Project Path="src/WeatherBoard.Worker.Consumer/WeatherBoard.Worker.Consumer.csproj" />
+    <Project Path="src/WeatherBoard.Worker.Producer/WeatherBoard.Worker.Producer.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
